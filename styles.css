@@ -1,0 +1,96 @@
+body {
+    background-color: #F0D4CD;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.tableBox {
+    background-color: ghostwhite;
+    padding: 10px;
+    width: 225px;
+    height: 210px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+
+
+}
+
+
+#tableFinderContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#findThatTable {
+    color: orangered;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.0rem;
+    padding-top: 25px;
+    text-shadow: 2px 2px 2px black;
+
+
+}
+
+#pickTable {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.availableTables {
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.availableTables {
+    color: grey;
+
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: orangered;
+
+}
+
+h2 {
+    color: black;
+    font-size: 12px;
+}
+
+.submit {
+    width: 100%;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+}
+
+.form {
+    border-radius: 2px;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px black;
+
+
+}
